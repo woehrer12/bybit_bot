@@ -1,0 +1,4 @@
+requests
+python-bitget
+pybit
+python-telegram-bot >= 20.0

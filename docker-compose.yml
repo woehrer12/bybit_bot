@@ -1,0 +1,17 @@
+version : '3.7'
+
+services:
+
+  auto-trader:
+    image: bybit_auto_trader
+    container_name: bybit_auto_trader
+    restart: always
+    volumes:
+    - ./:/bybit_bot/
+#     networks: 
+#       - network1
+
+# networks:
+#   network1:
+#     name: my-pre-existing-network
+#     external: true
